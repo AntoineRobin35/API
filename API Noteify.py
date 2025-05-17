@@ -19,10 +19,10 @@ time.sleep(5)
 try :
     id = driver.find_element(By.ID, "username")
     id.clear()
-    id.send_keys("Marceau35580")
+    id.send_keys("exemple")
     password = driver.find_element(By.ID, "password")
     password.clear()
-    password.send_keys("Soleil04*")
+    password.send_keys("exemple")
 except Exception as ex :
     assert False
 
